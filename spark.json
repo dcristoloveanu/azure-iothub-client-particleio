@@ -1,0 +1,7 @@
+{
+    "name": "iothub_client",
+    "author": "Microsoft",
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "Azure IoTHub client"
+}
