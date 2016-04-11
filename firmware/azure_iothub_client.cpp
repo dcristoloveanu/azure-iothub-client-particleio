@@ -1,10 +1,5 @@
 // Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-#include "iothub_client_sample_amqp.h"
+// This translation unit intentionally left blank
 
-int main(void)
-{
-	iothub_client_sample_amqp_run();
-	return 0;
-}
