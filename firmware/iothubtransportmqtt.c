@@ -551,7 +551,7 @@ static PMQTTTRANSPORT_HANDLE_DATA InitializeTransportHandleData(const IOTHUB_CLI
     }
     else
     {
-        state->mqttClient = mqtt_client_init(MqttRecvCallback, MqttOpCompleteCallback, state, defaultPrintLogFunction);
+        state->mqttClient = mqtt_client_init(MqttRecvCallback, MqttOpCompleteCallback, state, NULL /*defaultPrintLogFunction*/);
         if (state->mqttClient == NULL)
         {
             STRING_delete(state->mqttEventTopic);
